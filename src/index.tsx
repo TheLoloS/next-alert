@@ -1,4 +1,4 @@
 'use client';
-export { Alerts } from './Alerts';
-export { useAlert } from './AlertContext';
-export { AlertProvider } from './AlertContext';
+export { Alerts } from './components/Alerts';
+export { useAlert } from './components/AlertContext';
+export { AlertProvider } from './components/AlertContext';
