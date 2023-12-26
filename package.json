@@ -1,9 +1,11 @@
 {
   "version": "0.5.6",
   "license": "MIT",
-  "main": "dist/index.mjs",
-  "typings": "dist/index.d.mts",
-  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "engines": {
+    "node": ">=18"
+  },
   "jsx": "react",
   "files": [
     "dist",
@@ -38,6 +40,5 @@
   "bugs": {
     "url": "https://github.com/TheLoloS/next-alert/issues"
   },
-  "homepage": "https://github.com/TheLoloS/next-alert#readme",
-  "entry": "dist/index.mjs"
+  "homepage": "https://github.com/TheLoloS/next-alert#readme"
 }
