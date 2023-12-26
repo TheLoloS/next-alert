@@ -10,7 +10,7 @@ To install next-alert, use one of the following commands in your terminal:
 ```bash
 npm install framer-motion next-alert
 # or
-yarn add next-alert
+yarn add framer-motion next-alert
 ```
 
 *Why you must install framer-motion? Because next-alert use framer-motion for animations, and i wont to add this dependency in next-alert, because you can use other version of framer-motion for animations in your project.*
