@@ -1,8 +1,6 @@
 
 # 💌 next-alert 
 
-**Note:** next-alert is actively being developed, so we recommend regularly checking for the latest versions and updating your application.
-
 The next-alert library allows for easy integration and management of notifications / alerts in your Next.js 13/14 application.
 
 ## ➕ Installation
@@ -85,5 +83,8 @@ TheLoloS 😎
 ## License
 Mit
 
+**Note:** next-alert is actively being developed, so we recommend regularly checking for the latest versions and updating your application.
 
+## Keywords
+next, nextjs, next.js, next-alert, alert, notification, next-notification, next-alerts, next-notifications, nextjs-alert
 
