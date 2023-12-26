@@ -3,9 +3,7 @@
   "license": "MIT",
   "main": "dist/index.mjs",
   "typings": "dist/index.d.mts",
-  "entrypoints": [
-    "dist/index.mjs"
-  ],
+  "module": "dist/index.mjs",
   "jsx": "react",
   "files": [
     "dist",
@@ -40,5 +38,6 @@
   "bugs": {
     "url": "https://github.com/TheLoloS/next-alert/issues"
   },
-  "homepage": "https://github.com/TheLoloS/next-alert#readme"
+  "homepage": "https://github.com/TheLoloS/next-alert#readme",
+  "entry": "dist/index.mjs"
 }
