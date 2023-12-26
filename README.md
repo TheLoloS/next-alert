@@ -85,6 +85,3 @@ Mit
 
 **Note:** next-alert is actively being developed, so we recommend regularly checking for the latest versions and updating your application.
 
-## Keywords
-next, nextjs, next.js, next-alert, alert, notification, next-notification, next-alerts, next-notifications, nextjs-alert
-

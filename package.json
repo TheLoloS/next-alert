@@ -1,8 +1,11 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "entrypoints": [
+    "dist/index.mjs"
+  ],
   "jsx": "react",
   "files": [
     "dist",
