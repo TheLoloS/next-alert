@@ -91,7 +91,7 @@ export const Alerts: React.FC<AlertProps> = ({
 
   return (
     <div
-      style={{"display":"flex","overflow":"hidden","position":"fixed","padding":"1rem","flexDirection":"column","justifyContent":"flex-end","alignItems":"flex-end","width":"100vw", ...positionStyle }}
+      style={{"display":"flex","overflow":"hidden","position":"fixed","padding":"1rem","flexDirection":"column","justifyContent":"flex-end","alignItems":"flex-end","width":"fit-content", ...positionStyle }}
     >
       <AnimatePresence>
         {alerts.map((alert, i) => (
