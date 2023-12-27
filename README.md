@@ -40,7 +40,7 @@ const Component = () => {
 	const { addAlert } = useAlert();
 
     const handleClick = () => {
-        addAlert("Title","Description","Type");
+        addAlert("Title","Description","Type", () => { function execute after alert gone (optional) });
     }
     return (
         <div>
@@ -63,15 +63,20 @@ const Component = () => {
 
 | **Param** | **Options** | **Default** |
 |------------|------------|------------|
-|----------------------| Alert component params |----------------------|
+|-----------------| Alert component params |----------------------|
 | position |  top-left, top-right, bottom-left, bottom-right, center-top, center-bottom |  top-right |
 | direction | left, right, top, bottom| right |
 | timer | number | 3000 |
 | className | tailwind class | empty, you can change defaut styles by add ! |
-|----------------------| Alert hook params |----------------------|
+|-----------------| Alert hook params |----------------------|
 |title|string|empty|
 |description|string|empty|
 |type|success, error, warning, info|empty|
+|-----------------| Alert Import Types |----------------------|
+|AlertProps|
+|AlertType|
+|AlertDirection|
+|AlertPosition|
 
 
 ## Dependencies
