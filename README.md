@@ -70,20 +70,20 @@ const Component = () => {
 
 | **Param** | **Options** | **Default** |
 |------------|------------|------------|
-|-----------------| Alert component params |----------------------|
+|---------------| Alert component params |----------------------|
 | position |  top-left, top-right, bottom-left, bottom-right, center-top, center-bottom |  top-right |
 | direction | left, right, top, bottom| right |
 | timer | number | 3000 |
 | className | tailwind class | empty, you can change defaut styles by add ! |
-|-----------------| Alert hook params |----------------------|
+|---------------| Alert hook params |----------------------|
 |title|string|empty|
 |description|string|empty|
 |type|success, error, warning, info|empty|
-|-----------------| Alert Import Types |----------------------|
-|AlertProps|
-|AlertType|
-|AlertDirection|
-|AlertPosition|
+|---------------| Alert Import Types |----------------------|
+|AlertProps| interface AlertProps |
+|AlertType| "success" \| "error" \| "warning" \| "info" |
+|AlertDirection| "left" \| "right" \| "top" \| "bottom" |
+|AlertPosition| "top-left" \| "top-right" \| "bottom-left" \| "bottom-right" \| "center-top" \| "center-bottom" |
 
 
 ## Dependencies
