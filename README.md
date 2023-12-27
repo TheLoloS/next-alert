@@ -3,6 +3,10 @@
 
 The next-alert library allows for easy integration and management of notifications / alerts in your Next.js 13/14 application.
 
+## Demo
+
+![demo](https://github.com/TheLoloS/next-alert/assets/57485545/d22d9e5e-ce20-4d5f-b69f-a28b29b3f629)
+
 ## Installation
 
 To install next-alert, use one of the following commands in your terminal:
@@ -12,6 +16,7 @@ npm install framer-motion next-alert
 # or
 yarn add framer-motion next-alert
 ```
+
 
 *Why you must install framer-motion? Because next-alert use framer-motion for animations, and i wont to add this dependency in next-alert, because you can use other version of framer-motion for animations in your project.*
 
