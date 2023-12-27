@@ -7,6 +7,8 @@ The next-alert library allows for easy integration and management of notificatio
 
 ![demo](https://github.com/TheLoloS/next-alert/assets/57485545/d22d9e5e-ce20-4d5f-b69f-a28b29b3f629)
 
+[Go to Demo](https://next-alert-deom.vercel.app/)
+
 ## Installation
 
 To install next-alert, use one of the following commands in your terminal:
