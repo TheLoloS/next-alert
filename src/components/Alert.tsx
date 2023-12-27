@@ -108,7 +108,7 @@ export const Alert: React.FC<AlertProps> = ({
       }}
     >
       {/* create bar on top of div with animation */}
-      <div className="absolute left-0 top-0 w-full">
+      <div style={{"position":"absolute","top":"0","left":"0","width":"100%"}}>
         <motion.div
           initial={{ width: 0 }}
           animate={{ width: "100%" }}
