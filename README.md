@@ -20,7 +20,7 @@ yarn add framer-motion next-alert
 ```
 
 
-*Why you must install framer-motion? Because next-alert use framer-motion for animations, and i wont to add this dependency in next-alert, because you can use other version of framer-motion for animations in your project.*
+*Why do you need to install Framer-motion? Because the next alert uses Framer-motion for animation and I don't want to add this dependency in the next alert because you may be using a different version of Framer-motion for animation in your project.*
 
 ## Usage
 In main component you must use provider:

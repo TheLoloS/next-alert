@@ -121,7 +121,7 @@ export const Alert: React.FC<AlertProps> = ({
         ></motion.div>
       </div>
       {children as ReactNode}
-      <h1>{title}</h1>
+      <h1><b>{title}</b></h1>
       <p>{message}</p>
     </motion.div>
   );
