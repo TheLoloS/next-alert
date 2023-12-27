@@ -91,7 +91,7 @@ export const Alerts: React.FC<AlertProps> = ({
 
   return (
     <div
-      className="fixed z-[99999999] absolute overflow-hidden flex flex-col w-screen items-end justify-end p-4"
+      className="fixed z-[99999999] overflow-hidden flex flex-col w-screen items-end justify-end p-4"
       style={{ ...positionStyle }}
     >
       <AnimatePresence>
