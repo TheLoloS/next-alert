@@ -5,6 +5,9 @@ import { Alert } from "./Alert";
 import { useAlert } from "./AlertContext";
 import { AnimatePresence, HTMLMotionProps, MotionValue } from "framer-motion";
 
+
+
+
 export interface AlertProps extends HTMLMotionProps<"div"> {
   /**
    * Set the position of the alert component.
@@ -15,7 +18,7 @@ export interface AlertProps extends HTMLMotionProps<"div"> {
    * <Alerts position="top-left" />
    *
    */
-  position?:
+  position:
     | "top-left"
     | "top-right"
     | "bottom-left"
@@ -33,7 +36,7 @@ export interface AlertProps extends HTMLMotionProps<"div"> {
    * <Alerts direction="left" />
    */
 
-  direction?: "left" | "right" | "top" | "bottom";
+  direction: "left" | "right" | "top" | "bottom";
   /**
    * The duration of the alert. After this time, the alert will be removed. Default is 3000ms.
    */
@@ -88,7 +91,7 @@ export const Alerts: React.FC<AlertProps> = ({
 
   return (
     <div
-      className="fixed z-[99999999] flex flex-col items-end justify-end p-4"
+      className="fixed z-[99999999] absolute overflow-hidden flex flex-col w-screen items-end justify-end p-4"
       style={{ ...positionStyle }}
     >
       <AnimatePresence>
