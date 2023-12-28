@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -20,6 +20,18 @@
     "react-dom": ">=16"
   },
   "name": "next-alert",
+  "keywords": [
+    "next",
+    "alert",
+    "next 13",
+    "nextjs",
+    "next 14",
+    "notification",
+    "toast",
+    "react",
+    "framer-motion",
+    "typescript"
+  ],
   "author": "TheLoloS",
   "devDependencies": {
     "@types/react": "^18.2.45",
