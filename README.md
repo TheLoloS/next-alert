@@ -5,7 +5,7 @@ The next-alert library allows for easy integration and management of notificatio
 
 ## Demo
 
-![demo](https://github.com/TheLoloS/next-alert/assets/57485545/d22d9e5e-ce20-4d5f-b69f-a28b29b3f629)
+![background](https://next-alert-deom.vercel.app/demo.webp)
 
 [Go to Demo](https://next-alert-deom.vercel.app/)
 
